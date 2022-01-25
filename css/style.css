@@ -21,6 +21,33 @@
     letter-spacing: 20px;
 }
 
+.hover-effect-2 a:hover {
+    color: #191919;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+
+}
+
+.hover-effect-2 a{
+    border-radius: 2px;
+    display: block;
+    padding: 0.5em 0.75em;
+    color: #ffff;
+    transition: all .5s ease;
+
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -500px;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+
 .outline {
     color: #191919;
     -webkit-text-stroke-width: 1px;
@@ -90,7 +117,7 @@ input {
     height: 100vh;
     top: 0;
     left: 0;
-    background: rgba(255, 135, 2, 0.9);
+    background-color: #191919;
 }
 
 .menu label {
@@ -105,7 +132,7 @@ input {
 
 .menu .menuContent {
     position: relative;
-    top: 50%;
+    top: 40%;
     font-size: 54px;
     text-align: center;
     padding-bottom: 20px;
@@ -119,21 +146,21 @@ input {
 }
 
 .menu ul li a {
+    border-radius: 2px;
     display: block;
-    color: white;
-    text-decoration: none;
-    transition: color 0.2s;
-    text-transform: uppercase;
-    padding: 10px 0;
+    padding: 0.5em 0.75em;
+    color: #ffff;
+    transition: all .5s ease;
 }
 
 .menu ul li a:hover {
-    color: #ff8702;
+    color: #191919;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    letter-spacing: 20px;
 }
 
-.menu ul li:hover {
-    background: white;
-}
+
 
 .menuEffects {
     opacity: 0;
@@ -183,3 +210,6 @@ input {
 #menuToggle:not(:checked) ~ .menuEffects ul {
     transform: translateY(-30%);
 }
+
+
+

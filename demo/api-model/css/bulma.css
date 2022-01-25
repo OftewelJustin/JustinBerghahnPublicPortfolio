@@ -5024,33 +5024,28 @@ button.dropdown-item.is-active {
 }
 
 .menu.is-large {
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .menu-list {
-  line-height: 3;
+  line-height: 1.25;
 }
 
 .menu-list a {
   border-radius: 2px;
+  color: #4a4a4a;
   display: block;
   padding: 0.5em 0.75em;
-  color: #ffff;
-  transition: all .5s ease;
-
 }
 
 .menu-list a:hover {
-  color: #191919;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  letter-spacing: 20px;
+  background-color: whitesmoke;
+  color: #363636;
 }
 
 .menu-list a.is-active {
   background-color: #485fc7;
   color: #fff;
-
 }
 
 .menu-list li ul {
@@ -11143,9 +11138,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-dark {
-  background-image: url("../img/mainbg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #363636;
+  color: #fff;
+}
+
+.hero.is-dark a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+.hero.is-dark strong {
+  color: inherit;
 }
 
 .hero.is-dark .title {
@@ -11163,7 +11162,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 @media screen and (max-width: 1023px) {
   .hero.is-dark .navbar-menu {
-    background-color: #fff;
+    background-color: #363636;
   }
 }
 
