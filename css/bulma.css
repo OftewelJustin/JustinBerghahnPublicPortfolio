@@ -5036,13 +5036,15 @@ button.dropdown-item.is-active {
   display: block;
   padding: 0.5em 0.75em;
   color: #ffff;
+  transition: all .5s ease;
+
 }
 
 .menu-list a:hover {
   color: #191919;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-  transition: .2s ease-out;
+  letter-spacing: 20px;
 }
 
 .menu-list a.is-active {
@@ -11141,7 +11143,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-dark {
-  background-color: #191919;
+  background-image: url('/img/mainbg.png');
 }
 
 .hero.is-dark .title {

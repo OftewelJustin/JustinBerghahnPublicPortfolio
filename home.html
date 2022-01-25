@@ -5,24 +5,38 @@
     <title>Title</title>
     <link rel="stylesheet" href="./css/bulma.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/88e5c2c5f3.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <section class="hero is-dark is-fullheight">
-    <div class="hero-body has-text-centered">
-        <div class="column">
-            <h1 class="has-text-white has-text-weight-bold is-size-1 has-text-left">Hi, I'm Justin 👋</h1>
-            <p class="has-text-white has-text-weight-bold is-size-4 has-text-left">Welcome to my Portfolio!</p>
-        </div>
-        <div class="column">
-            <aside class="menu is-large">
-                <ul class="menu-list has-text-weight-bold">
-                    <li><a>ABOUT</a></li>
-                    <li><a>WORK</a></li>
-                    <li><a>CONTACT</a></li>
+    <div id="menuArea">
+        <input type="checkbox" id="menuToggle">
+
+        <label for="menuToggle" class="menuOpen">
+            <div class="open"></div>
+        </label>
+
+        <div class="menu menuEffects">
+            <label for="menuToggle"></label>
+            <div class="menuContent">
+                <ul>
+                    <li><a href="#" class="has-text-weight-bold hover-effect-1">ABOUT</a></li>
+                    <li><a href="#" class="has-text-weight-bold hover-effect-1">WORK</a></li>
+                    <li><a href="#" class="has-text-weight-bold hover-effect-1">CONTACT</a></li>
                 </ul>
-            </aside>
+            </div>
         </div>
     </div>
+
+    <div class="hero-body has-text-centered">
+        <div class="column">
+            <h1 class="has-text-white has-text-weight-bold is-size-1 has-text-center hover-effect-1 "><a href="">Hi, I'm Justin 👋</a></h1>
+            <p class="has-text-white has-text-weight-bold is-size-4 has-text-center hover-effect-1">Welcome to my Portfolio!</p>
+        </div>
+
+
+    </div>
+    <script src="js/core.js"></script>
 </section>
 </body>
 </html>
