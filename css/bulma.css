@@ -11144,8 +11144,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .hero.is-dark {
   background-image: url("../img/mainbg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
 }
 
 .hero.is-dark .title {
@@ -11736,7 +11735,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   position: absolute;
   top: 50%;
   transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
 }
+
 
 .hero-video.is-transparent {
   opacity: 0.3;

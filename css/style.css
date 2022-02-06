@@ -15,7 +15,7 @@
 }
 
 .hover-effect-1 a:hover {
-    color: #191919;
+    color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     letter-spacing: 20px;
@@ -211,5 +211,10 @@ input {
     transform: translateY(-30%);
 }
 
+.z-2 {
+    z-index: 2;
+}
 
-
+.z-3 {
+    z-index: 3;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Justin Berghahn Portfolio</title>
+  <link rel="stylesheet" href="./css/bulma.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/88e5c2c5f3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./node_modules/jq-fakeloader/dist/fakeLoader.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./node_modules/jq-fakeloader/dist/fakeLoader.min.js"></script>
+
+</head>
+
+<body>
+
+<section class="hero is-fullheight video">
+
+  <div class="hero-video">
+    <video poster="img/bgimg.jpg" id="bgvid" playsinline autoplay muted loop>
+      <source src="vid/BGvid.webm" type="video/webm">
+      <source src="vid/bgvid.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div id="menuArea" class="z-3">
+    <input type="checkbox" id="menuToggle">
+
+    <label for="menuToggle" class="menuOpen">
+      <div class="open"></div>
+    </label>
+
+    <div class="menu menuEffects">
+      <label for="menuToggle"></label>
+      <div class="menuContent">
+        <ul>
+          <li><a href="./index.php" class="has-text-weight-bold hover-effect-1">HOME</a></li>
+          <li><a href="./about.php" class="has-text-weight-bold hover-effect-1">ABOUT</a></li>
+          <li><a href="./project.php" class="has-text-weight-bold hover-effect-1">WORK</a></li>
+          <li><a href="mailto:info@justinberghahn.nl" class="has-text-weight-bold hover-effect-1">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-body has-text-centered z-2">
+
+    <div class="column">
+      <h1 class="has-text-white has-text-weight-bold is-size-1 has-text-center hover-effect-1 glitch"><a href="https://github.com/OftewelJustin">Hi, I'm Justin 👋</a></h1>
+      <p class="has-text-white has-text-weight-bold is-size-4 has-text-center hover-effect-1">Welcome to my Portfolio!</p>
+    </div>
+  </div>
+  </div>
+  <div class="hero-foot">
+    <div class="has-text-centered">
+      // Scroll down arrow here?
+    </div>
+  </div>
+  <script>
+    $.fakeLoader();
+  </script>
+  <script src="js/core.js"></script>
+</section>
+</body>
+</html>
